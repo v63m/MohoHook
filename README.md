@@ -31,4 +31,7 @@ MohoHook is provided for and personal use, if you use DLC guns, you WILL be mark
 
 ## Contributing
 
-Suggestions, bug reports, and contributions are welcome-
+Suggestions, bug reports, and contributions are welcome.
+
+
+based on HexTrainer, i only improved it or added features.
