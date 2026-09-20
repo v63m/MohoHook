@@ -1,0 +1,50 @@
+{
+    "menu_id": "ut_spawn_menu",
+    "parent_menu_id": "ut_main_menu",
+    "title": "ut_menu_spawn_title",
+    "description": "ut_menu_spawn_description",
+    "items": [
+        {
+            "type": "button",
+            "id": "ut_item_spawn_remove_npcs",
+            "title": "ut_item_spawn_remove_npcs_title",
+            "description": "ut_item_spawn_remove_npcs_description",
+            "callback": "ut_spawn_remove_npcs"
+        },
+        {
+            "type": "button",
+            "id": "ut_item_spawn_remove_loots",
+            "title": "ut_item_spawn_remove_loots_title",
+            "description": "ut_item_spawn_remove_loots_description",
+            "callback": "ut_spawn_remove_loots"
+        },
+        {
+            "type": "button",
+            "id": "ut_item_spawn_remove_equipments",
+            "title": "ut_item_spawn_remove_equipments_title",
+            "description": "ut_item_spawn_remove_equipments_description",
+            "callback": "ut_spawn_remove_equipments"
+        },
+        {
+            "type": "button",
+            "id": "ut_item_spawn_remove_packages",
+            "title": "ut_item_spawn_remove_packages_title",
+            "description": "ut_item_spawn_remove_packages_description",
+            "callback": "ut_spawn_remove_packages"
+        },
+        {
+            "type": "button",
+            "id": "ut_item_spawn_remove_bags",
+            "title": "ut_item_spawn_remove_bags_title",
+            "description": "ut_item_spawn_remove_bags_description",
+            "callback": "ut_spawn_remove_bags"
+        },
+        {
+            "type": "button",
+            "id": "ut_item_spawn_dispose_corpses",
+            "title": "ut_item_spawn_dispose_corpses_title",
+            "description": "ut_item_spawn_dispose_corpses_description",
+            "callback": "ut_spawn_dispose_corpses"
+        }
+    ]
+}

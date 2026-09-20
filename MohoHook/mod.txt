@@ -1,0 +1,176 @@
+{
+    "name": "$$$ moho hook $$$",
+    "description": "$$$ moho hook $$$ - Payday 2 mod trainer",
+    "author": "HexTrip",
+    "version": "1.2.4",
+    "image": "modimage.png",
+    "hooks": [
+        {
+            "hook_id": "core/lib/setups/coresetup",
+            "script_path": "hooks/core/lib/setups/coresetup.lua"
+        },
+        {
+            "hook_id": "lib/managers/menumanager",
+            "script_path": "hooks/lib/managers/menumanager.lua"
+        },
+        {
+            "hook_id": "lib/managers/hud/hudchat",
+            "script_path": "hooks/lib/managers/hud/hudchat.lua"
+        },
+        {
+            "hook_id": "lib/managers/skilltreemanager",
+            "script_path": "hooks/lib/managers/skilltreemanager.lua"
+        },
+        {
+            "hook_id": "lib/managers/dlcmanager",
+            "script_path": "hooks/lib/managers/dlcmanager.lua"
+        },
+        {
+            "hook_id": "lib/managers/blackmarketmanager",
+            "script_path": "hooks/lib/managers/blackmarketmanager.lua"
+        },
+        {
+            "hook_id": "lib/units/weapons/raycastweaponbase",
+            "script_path": "hooks/lib/units/weapons/raycastweaponbase.lua"
+        },
+        {
+            "hook_id": "lib/managers/tangomanager",
+            "script_path": "hooks/lib/managers/tangomanager.lua"
+        },
+        {
+            "hook_id": "lib/managers/musicmanager",
+            "script_path": "hooks/lib/managers/musicmanager.lua"
+        },
+        {
+            "hook_id": "lib/setups/gamesetup",
+            "script_path": "hooks/lib/setups/gamesetup.lua"
+        },
+        {
+            "hook_id": "lib/network/base/networkmanager",
+            "script_path": "hooks/lib/network/base/networkmanager.lua"
+        },
+        {
+            "hook_id": "lib/states/bootupstate",
+            "script_path": "hooks/lib/states/bootupstate.lua"
+        },
+        {
+            "hook_id": "lib/states/ingamewaitingforplayers",
+            "script_path": "hooks/lib/states/ingamewaitingforplayersstate.lua"
+        },
+        {
+            "hook_id": "lib/states/missionendstate",
+            "script_path": "hooks/lib/states/missionendstate.lua"
+        }
+    ],
+    "persist_scripts": [
+        {
+            "global": "UTLoadedPersistInit",
+            "script_path": "persist/init.lua"
+        },
+        {
+            "global": "UTLoadedPersistMain",
+            "script_path": "persist/main.lua"
+        }
+    ],
+    "keybinds": [
+        {
+            "keybind_id": "UTKeybindOpenMenu",
+            "name": "ut_keybind_open_menu_title",
+            "description": "ut_keybind_open_menu_description",
+            "script_path": "keybinds/open-menu.lua",
+            "run_in_menu": true,
+            "run_in_game": true,
+            "localized": true
+        },
+        {
+            "keybind_id": "UTKeybindGodMode",
+            "name": "ut_keybind_god_mode_title",
+            "description": "ut_keybind_god_mode_description",
+            "script_path": "keybinds/god-mode.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": true
+        },
+        {
+            "keybind_id": "UTKeybindSpawnBag",
+            "name": "ut_keybind_spawn_bag_title",
+            "description": "ut_keybind_spawn_bag_description",
+            "script_path": "keybinds/spawn-bag.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": true
+        },
+        {
+            "keybind_id": "UTKeybindNoclip",
+            "name": "ut_keybind_noclip_title",
+            "description": "ut_keybind_noclip_description",
+            "script_path": "keybinds/noclip.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": true
+        },
+        {
+            "keybind_id": "UTKeybindResetAll",
+            "name": "ut_keybind_reset_all_title",
+            "description": "ut_keybind_reset_all_description",
+            "script_path": "keybinds/reset-all.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": true
+        },
+        {
+            "keybind_id": "UTKeybindTeleport",
+            "name": "ut_keybind_teleport_title",
+            "description": "ut_keybind_teleport_description",
+            "script_path": "keybinds/teleport.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": true
+        },
+        {
+            "keybind_id": "UTKeybindReplenish",
+            "name": "ut_keybind_replenish_title",
+            "description": "ut_keybind_replenish_description",
+            "script_path": "keybinds/replenish.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": true
+        },
+        {
+            "keybind_id": "UTKeybindTest",
+            "name": "ut_keybind_test_title",
+            "description": "ut_keybind_test_description",
+            "script_path": "keybinds/test.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": true
+        },
+        {
+            "keybind_id": "UTKeybindToggleStatus",
+            "name": "ut_keybind_toggle_status_title",
+            "description": "ut_keybind_toggle_status_description",
+            "script_path": "keybinds/toggle-status.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": true
+        },
+        {
+            "keybind_id": "UTKeybindToggleSpinbot",
+            "name": "ut_keybind_toggle_spinbot_title",
+            "description": "ut_keybind_toggle_spinbot_description",
+            "script_path": "keybinds/toggle-spinbot.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": true
+        },
+        {
+            "keybind_id": "UTKeybindToggleAimbot",
+            "name": "ut_keybind_toggle_aimbot_title",
+            "description": "ut_keybind_toggle_aimbot_description",
+            "script_path": "keybinds/toggle-aimbot.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": true
+        }
+    ]
+}

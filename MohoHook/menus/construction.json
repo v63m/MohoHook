@@ -1,0 +1,23 @@
+{
+    "menu_id": "ut_construction_menu",
+    "parent_menu_id": "ut_main_menu",
+    "title": "ut_menu_construction_title",
+    "description": "ut_menu_construction_description",
+    "items": [
+        {
+            "type": "button",
+            "id": "ut_item_construction_clear",
+            "title": "ut_item_construction_clear_title",
+            "description": "ut_item_construction_clear_description",
+            "callback": "ut_construction_clear"
+        },
+        {
+            "type": "toggle",
+            "id": "ut_item_construction_toggle_crosshair_marker",
+            "title": "ut_item_construction_toggle_crosshair_marker_title",
+            "description": "ut_item_construction_toggle_crosshair_marker_description",
+            "callback": "ut_construction_toggle_crosshair_marker",
+            "default_value": false
+        }
+    ]
+}

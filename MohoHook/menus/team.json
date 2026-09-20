@@ -1,0 +1,36 @@
+{
+    "menu_id": "ut_team_menu",
+    "parent_menu_id": "ut_main_menu",
+    "title": "ut_menu_team_title",
+    "description": "ut_menu_team_description",
+    "items": [
+        {
+            "type": "button",
+            "id": "ut_item_team_grant_all",
+            "title": "ut_item_team_grant_all_title",
+            "description": "ut_item_team_grant_all_description",
+            "callback": "ut_team_grant_all"
+        },
+        {
+            "type": "button",
+            "id": "ut_item_team_revoke_all",
+            "title": "ut_item_team_revoke_all_title",
+            "description": "ut_item_team_revoke_all_description",
+            "callback": "ut_team_revoke_all"
+        },
+        {
+            "type": "button",
+            "id": "ut_item_team_refresh",
+            "title": "ut_item_team_refresh_title",
+            "description": "ut_item_team_refresh_description",
+            "callback": "ut_team_refresh"
+        },
+        {
+            "type": "button",
+            "id": "ut_item_team_show_status",
+            "title": "ut_item_team_show_status_title",
+            "description": "ut_item_team_show_status_description",
+            "callback": "ut_team_show_status"
+        }
+    ]
+}
